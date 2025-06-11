@@ -36,7 +36,7 @@ const cars = [
   }
 ]
 
-const gentemplate = (car) => {
+const genTemplate = (car) => {
   return `
         <div class="card m-2" style="width: 18rem;">
           <div class="card-body">
@@ -53,6 +53,6 @@ const carsDiv = document.querySelector('#cars')
 
 cars.forEach( (car)=> {
   console.log(car.name)
-  carsDiv.innerHTML += template(car)
+  carsDiv.innerHTML += genTemplate(car)
 
 })
