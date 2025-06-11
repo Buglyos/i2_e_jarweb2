@@ -41,10 +41,10 @@ const gentemplate = (car) => {
         <div class="card m-2" style="width: 18rem;">
           <div class="card-body">
           <h2>${car.plate}</h2><p>    
-        <p>Rendszám: ${car.id}<p>
-        <p>Márka: ${car.name}<p>
-        <p>Modell: ${car.model}<p>
-        <p>Évjárat: ${car.year}<p>      
+          <p>Rendszám: ${car.id}<p>
+          <p>Márka: ${car.name}<p>
+          <p>Modell: ${car.model}<p>
+          <p>Évjárat: ${car.year}<p>      
       </div>
     </div>`
 }
